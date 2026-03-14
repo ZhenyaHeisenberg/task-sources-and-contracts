@@ -48,7 +48,7 @@ def test_build_jsonl_source():
 
 def test_build_api_source():
     api_count = 5
-    source = REGISTRY["api"](count=api_count, delay=0.1)
+    source = REGISTRY["api"](count=api_count)
     
     assert isinstance(source, MessageSource)
     
