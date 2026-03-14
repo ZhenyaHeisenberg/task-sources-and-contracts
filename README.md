@@ -22,11 +22,11 @@ src/
 <pre>
 
 <h1> Поддерживаемые команды: <h1>
-*   *python -m src plugins* - Показать доступные источники
-*   *python -m src read --api 3* - Прочитать 3 сообщения из API-заглушки
-*   *python -m src read --jsonl data.jsonl* - Прочитать из JSONL файла
-*   *echo "1:Title:Author:Message" | python -m src read --stdin* - Прочитать из STDIN
-*   *python -m src read --api 10 --contains "5"* - Фильтрация
+*   **python -m src plugins** - Показать доступные источники
+*   **python -m src read --api 3** - Прочитать 3 сообщения из API-заглушки
+*   *python -m src read --jsonl data.jsonl** - Прочитать из JSONL файла
+*   **echo "1:Title:Author:Message" | python -m src read --stdin** - Прочитать из STDIN
+*   **python -m src read --api 10 --contains "5"** - Фильтрация
 
 <h1> 1. API-заглушка (api.py) <h1>
 *   Имитирует внешний API
